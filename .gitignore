@@ -9,7 +9,6 @@ weights/
 data/
 outputs/
 output/
-/results/*
 
 # Python
 __pycache__/

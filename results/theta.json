@@ -1,0 +1,26 @@
+{
+  "model": "per-layer roofline: K*t_0 + sum_l max(F_l/V_c, M_l/V_m)",
+  "theta_latency": {
+    "t_0_s": 2.8790676471058827e-05,
+    "V_c_flops": 3717668246078.9663,
+    "V_m_bytes": 235666895620.98926
+  },
+  "theta_energy": {
+    "P_idle_w": 25.98,
+    "e_flop_j": 2.0538734372251978e-11,
+    "e_byte_j": 0.0
+  },
+  "n_kernels": 17,
+  "P_peak": 8100000000000.0,
+  "BW_peak": 320000000000.0,
+  "epsilon_compute": 0.45897138840481067,
+  "epsilon_memory": 0.7364590488155914,
+  "seed": 0,
+  "env": {
+    "gpu": "Tesla T4",
+    "total_memory": 15637086208,
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "cudnn": 91900
+  }
+}

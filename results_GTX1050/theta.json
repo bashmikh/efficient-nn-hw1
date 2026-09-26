@@ -1,0 +1,23 @@
+{
+  "model": "per-layer roofline: K*t_0 + sum_l max(F_l/V_c, M_l/V_m)",
+  "theta_latency": {
+    "t_0_s": 3.056502945957404e-05,
+    "V_c_flops": 1144951638441.5596,
+    "V_m_bytes": 84471708629.75905
+  },
+  "theta_energy": null,
+  "n_kernels": 17,
+  "P_peak": 2446080000000.0,
+  "BW_peak": 112000000000.0,
+  "epsilon_compute": 0.46807612115775427,
+  "epsilon_memory": 0.7542116841942772,
+  "seed": 0,
+  "env": {
+    "gpu": "NVIDIA GeForce GTX 1050",
+    "total_memory": 4230086656,
+    "sm_count": 5,
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cudnn": 90100
+  }
+}
