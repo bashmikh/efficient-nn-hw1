@@ -1,0 +1,44 @@
+# Weights и модели
+experimental_weights/
+weights/
+*.onnx
+*.pt
+*.pth
+
+# Данные
+data/
+outputs/
+output/
+/results/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.xml
